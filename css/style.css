@@ -1,8 +1,48 @@
-h1 {
-    font-size: 70px;}
-
-.heading {
+body {
   font-family: helvetica;
   text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: bold;
+
+
+  }
+
+.heading {
   background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.jpg);
+  color: white;
+}
+
+#navigation {
+  font-size: 18px;
+  color: white;
+}
+
+h2  {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#newyork {
+  font-weight: bold;
+  color: white;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.jpg);
+}
+
+h3  {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+}
+
+.copyright {
+  text-align: left;
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
 }
