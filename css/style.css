@@ -6,13 +6,13 @@ body {
 h1 {
     font-size: 70px;
     font-weight: bold;
-
-
   }
 
 .heading {
   background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.jpg);
   color: white;
+  background-size: cover;
+  background-position: center center;
 }
 
 #navigation {
@@ -29,6 +29,8 @@ h2  {
   font-weight: bold;
   color: white;
   background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.jpg);
+  background-size: cover;
+  background-position: center center;
 }
 
 h3  {
@@ -45,4 +47,8 @@ p {
   font-size: 11px;
   color: white;
   background-color: dimgray;
+}
+
+a {
+  color: white;
 }
